@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-17T11:57:08 IST" name="Suite" finished-at="2020-05-17T11:58:17 IST" duration-ms="69026">
+    <groups>
+    </groups>
+    <test started-at="2020-05-17T11:57:08 IST" name="Test1" finished-at="2020-05-17T11:58:17 IST" duration-ms="69026">
+      <class name="com.qa.testCases.TC_RateGPS_001">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.qa.testCases.TC_RateGPS_001@e1de817]" started-at="2020-05-17T11:57:08 IST" name="initializeBrowser" finished-at="2020-05-17T11:57:28 IST" duration-ms="20458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="launchNMIPage()[pri:0, instance:com.qa.testCases.TC_RateGPS_001@e1de817]" started-at="2020-05-17T11:57:28 IST" name="launchNMIPage" finished-at="2020-05-17T11:58:15 IST" duration-ms="46766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchNMIPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testCases.TC_RateGPS_001@e1de817]" started-at="2020-05-17T11:58:15 IST" name="closeBrowser" finished-at="2020-05-17T11:58:17 IST" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testCases.TC_RateGPS_001 -->
+      <class name="com.qa.testCases.TC_ContactUs_002">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.qa.testCases.TC_ContactUs_002@5939a379]" started-at="2020-05-17T11:57:08 IST" name="initializeBrowser" finished-at="2020-05-17T11:57:28 IST" duration-ms="20461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="launchContactUsPage()[pri:0, instance:com.qa.testCases.TC_ContactUs_002@5939a379]" started-at="2020-05-17T11:57:28 IST" name="launchContactUsPage" finished-at="2020-05-17T11:57:59 IST" duration-ms="30749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchContactUsPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testCases.TC_ContactUs_002@5939a379]" started-at="2020-05-17T11:57:59 IST" name="closeBrowser" finished-at="2020-05-17T11:58:01 IST" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testCases.TC_ContactUs_002 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
