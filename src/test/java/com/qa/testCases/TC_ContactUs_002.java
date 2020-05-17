@@ -26,7 +26,7 @@ public class TC_ContactUs_002 extends BaseClass{
 		long id = Thread.currentThread().getId();
         System.out.println("Contact us 001. Thread id is: " + id);
 		driver.get(baseURL);
-		System.out.println("Contact us 001. Thread id is: " + id);		
+		System.out.println("Contact us- Launched base url - Thread id is: " + id);		
 		
 		ContactUs contactUs = new ContactUs(driver);
 		contactUs.clickContactUs();		

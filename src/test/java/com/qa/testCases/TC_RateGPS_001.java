@@ -23,9 +23,9 @@ public class TC_RateGPS_001 extends BaseClass {
 	@Test
 	public void launchNMIPage() {	
 		long id = Thread.currentThread().getId();
-        System.out.println("Login test 001. Thread id is: " + id);
+        System.out.println("Rate GPS - Thread id is: " + id);
         driver.get(baseURL);
-		System.out.println("Login test 001. Thread id is: " + id);
+		System.out.println("Rate GPS - Launched base url - Thread id is: " + id);
 				
 		RateGPSGetQuote rgps = new RateGPSGetQuote(driver);			
 		
